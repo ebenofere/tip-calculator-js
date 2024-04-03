@@ -14,7 +14,7 @@ function calculateTip(e) {
     }
 
     const newAmount = +amount.value;
-    const newPercentage = percentage.value;
+    const newPercentage = +percentage.value;
 
     const resultDisplay = newAmount + (newPercentage/100 * newAmount);
 
